@@ -36,3 +36,28 @@ export const ReconfigureIcon: React.FC = () => (
       <path strokeLinecap="round" strokeLinejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
     </svg>
 );
+
+export const ExportIcon: React.FC = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+        <path strokeLinecap="round" strokeLinejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
+    </svg>
+);
+
+export const MusicNoteIcon: React.FC = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+        <path d="M7 4a1 1 0 0 1 1-1h.01a1 1 0 0 1 1 1v5.586l1.293-1.293a1 1 0 0 1 1.414 1.414l-3 3a1 1 0 0 1-1.414 0l-3-3a1 1 0 0 1 1.414-1.414L7 9.586V4Z" />
+        <path d="M3 12a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1Z" />
+    </svg>
+);
+
+export const VideoIcon: React.FC = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+        <path d="M3.5 2.75a.75.75 0 0 0-1.5 0v14.5a.75.75 0 0 0 1.5 0v-2.833c.31-.044.613-.101.909-.172l.488-.119a3.875 3.875 0 0 1 2.433 0l.488.119c.955.233 1.625.43 2.18.582a5.32 5.32 0 0 0 2.984 0c.555-.152 1.225-.349 2.18-.582l.488-.119a3.875 3.875 0 0 1 2.433 0l.488.119c.296.07.599.128.909.172V2.75a.75.75 0 0 0-1.5 0v2.833c-.31.044-.613.101-.909.172l-.488.119a3.875 3.875 0 0 1-2.433 0l-.488-.119c-.955-.233-1.625-.43-2.18-.582a5.32 5.32 0 0 0-2.984 0c-.555.152-1.225.349-2.18.582l-.488-.119a3.875 3.875 0 0 1-2.433 0l-.488-.119A7.874 7.874 0 0 0 3.5 5.583V2.75Z" />
+    </svg>
+);
+
+export const ClearIcon: React.FC = () => (
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-4 h-4">
+        <path d="M6.28 5.22a.75.75 0 0 0-1.06 1.06L8.94 10l-3.72 3.72a.75.75 0 1 0 1.06 1.06L10 11.06l3.72 3.72a.75.75 0 1 0 1.06-1.06L11.06 10l3.72-3.72a.75.75 0 0 0-1.06-1.06L10 8.94 6.28 5.22Z" />
+    </svg>
+);
