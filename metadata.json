@@ -1,0 +1,5 @@
+{
+  "name": "Auto-Scrolling Sheet Music Viewer",
+  "description": "An application for musicians to display sheet music with automatic, timed page turning. Features a dual-page, book-style view that advances one page at a time, and a responsive single-page view for mobile devices.",
+  "requestFramePermissions": []
+}
